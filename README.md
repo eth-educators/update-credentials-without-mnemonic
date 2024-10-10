@@ -16,7 +16,7 @@ If you have any questions or concerns, please reach out to use at the [EthStaker
 - Download the latest version of [ethstaker-deposit-cli](https://github.com/eth-educators/ethstaker-deposit-cli/tags), at least v0.1.3
 - Follow instructions on how to run the [generate-bls-to-execution-change-keystore command](https://deposit-cli.ethstaker.cc/generate_bls_to_execution_change_keystore.html)
 ```
-./deposit generate-bls-to-execution-change --keystore=PATH_TO_FILE
+./deposit generate-bls-to-execution-change-keystore --keystore=PATH_TO_FILE
 ```
 - This will output a `bls_to_execution_change_keystore_transaction-*-*.json` file in the `bls_to_execution_changes_keystore` directory
 - You will need the `signature` value from the created `bls_to_execution_change_keystore_transaction-*-*.json` for step 3
